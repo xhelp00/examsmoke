@@ -1,0 +1,350 @@
+----------------8<-------------[ START TEST 
+        💻 ALL TESTS: 
+
+ulimit -n 30
+
+./a.out /bin/ls
+./a.out /bin/ls microshell.c
+./a.out /bin/ls salut
+./a.out ";"
+./a.out ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";"
+./a.out ";" ";" /bin/echo OK
+./a.out ";" ";" /bin/echo OK ";"
+./a.out ";" ";" /bin/echo OK ";" ";"
+./a.out ";" ";" /bin/echo OK ";" ";" ";" /bin/echo OK
+./a.out /bin/ls "|" /usr/bin/grep a.out
+./a.out /bin/ls "|" /usr/bin/grep microshell "|" /usr/bin/grep micro
+./a.out /bin/ls "|" /usr/bin/grep microshell "|" /usr/bin/grep micro "|" /usr/bin/grep shell "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro
+./a.out /bin/ls "|" /usr/bin/grep microshell "|" /usr/bin/grep micro "|" /usr/bin/grep shell "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell "|" /usr/bin/grep shell
+./a.out /bin/ls ewqew "|" /usr/bin/grep micro "|" /bin/cat -n ";" /bin/echo dernier ";" /bin/echo
+./a.out /bin/ls "|" /usr/bin/grep micro "|" /bin/cat -n ";" /bin/echo dernier ";" /bin/echo ftest ";"
+./a.out /bin/echo ftest ";" /bin/echo ftewerwerwerst ";" /bin/echo werwerwer ";" /bin/echo qweqweqweqew ";" /bin/echo qwewqeqrtregrfyukui ";"
+./a.out /bin/ls ftest ";" /bin/ls ";" /bin/ls werwer ";" /bin/ls microshell.c ";" /bin/ls subject.fr.txt ";"
+./a.out /bin/ls "|" /usr/bin/grep micro ";" /bin/ls "|" /usr/bin/grep micro ";" /bin/ls "|" /usr/bin/grep micro ";" /bin/ls "|" /usr/bin/grep micro ";"
+./a.out /bin/cat reserv_microsh.c "|" /usr/bin/grep a "|" /usr/bin/grep b ";" /bin/cat reserv_microsh.c ";"
+./a.out /bin/cat reserv_microsh.c "|" /usr/bin/grep a "|" /usr/bin/grep w ";" /bin/cat reserv_microsh.c ";"
+./a.out /bin/cat reserv_microsh.c "|" /usr/bin/grep a "|" /usr/bin/grep w ";" /bin/cat reserv_microsh.c
+./a.out /bin/cat reserv_microsh.c ";" /bin/cat reserv_microsh.c "|" /usr/bin/grep a "|" /usr/bin/grep b "|" /usr/bin/grep z ";" /bin/cat reserv_microsh.c
+./a.out ";" /bin/cat reserv_microsh.c ";" /bin/cat reserv_microsh.c "|" /usr/bin/grep a "|" /usr/bin/grep b "|" /usr/bin/grep z ";" /bin/cat reserv_microsh.c
+./a.out blah "|" /bin/echo OK
+./a.out blah "|" /bin/echo OK ";"
+./a.out ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" blah "|" /bin/echo OK ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";"
+./a.out cd ";" /bin/ls
+./a.out /bin/ls "|" /usr/bin/grep microshell "|" /usr/bin/grep micro "|" /usr/bin/grep shell "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|" /usr/bin/grep micro "|"
+
+
+        🔎 YOUR OUTPUT:
+a.out
+finalexam
+microshell
+sourcexam
+test.sh
+ls: microshell.c: No such file or directory
+ls: salut: No such file or directory
+OK
+OK
+OK
+error: cannot execute OK
+OK
+error: cannot execute OK
+OK
+a.out
+error: cannot execute microshell
+error: cannot execute microshell
+error: cannot execute micro
+error: cannot execute shell
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute microshell
+error: cannot execute micro
+error: cannot execute shell
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+error: cannot execute shell
+ls: ewqew: No such file or directory
+error: cannot execute ewqew
+error: cannot execute micro
+error: cannot execute -n
+dernier
+error: cannot execute dernier
+
+error: cannot execute micro
+error: cannot execute -n
+dernier
+error: cannot execute dernier
+ftest
+ftest
+error: cannot execute ftest
+ftewerwerwerst
+error: cannot execute ftewerwerwerst
+werwerwer
+error: cannot execute werwerwer
+qweqweqweqew
+error: cannot execute qweqweqweqew
+qwewqeqrtregrfyukui
+ls: ftest: No such file or directory
+error: cannot execute ftest
+a.out
+finalexam
+microshell
+sourcexam
+test.sh
+ls: werwer: No such file or directory
+error: cannot execute werwer
+ls: microshell.c: No such file or directory
+error: cannot execute microshell.c
+ls: subject.fr.txt: No such file or directory
+microshell
+error: cannot execute micro
+microshell
+error: cannot execute micro
+microshell
+error: cannot execute micro
+microshell
+cat: reserv_microsh.c: No such file or directory
+error: cannot execute reserv_microsh.c
+error: cannot execute a
+error: cannot execute b
+cat: reserv_microsh.c: No such file or directory
+cat: reserv_microsh.c: No such file or directory
+error: cannot execute reserv_microsh.c
+error: cannot execute a
+error: cannot execute w
+cat: reserv_microsh.c: No such file or directory
+cat: reserv_microsh.c: No such file or directory
+error: cannot execute reserv_microsh.c
+error: cannot execute a
+error: cannot execute w
+cat: reserv_microsh.c: No such file or directory
+cat: reserv_microsh.c: No such file or directory
+error: cannot execute reserv_microsh.c
+cat: reserv_microsh.c: No such file or directory
+error: cannot execute reserv_microsh.c
+error: cannot execute a
+error: cannot execute b
+error: cannot execute z
+cat: reserv_microsh.c: No such file or directory
+cat: reserv_microsh.c: No such file or directory
+error: cannot execute reserv_microsh.c
+cat: reserv_microsh.c: No such file or directory
+error: cannot execute reserv_microsh.c
+error: cannot execute a
+error: cannot execute b
+error: cannot execute z
+cat: reserv_microsh.c: No such file or directory
+error: cannot execute blah
+OK
+error: cannot execute blah
+OK
+error: cannot execute blah
+OK
+error: cannot execute OK
+error: cd: bad arguments
+a.out
+finalexam
+microshell
+sourcexam
+test.sh
+error: cannot execute microshell
+error: cannot execute micro
+error: cannot execute shell
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+error: cannot execute micro
+
+
+        🗝 EXPECTED OUTPUT:
+a.out
+finalexam
+microshell
+sourcexam
+test.sh
+ls: microshell.c: No such file or directory
+ls: salut: No such file or directory
+OK
+OK
+OK
+OK
+OK
+a.out
+microshell
+microshell
+microshell
+ls: ewqew: No such file or directory
+dernier
+
+     1	microshell
+dernier
+ftest
+ftest
+ftewerwerwerst
+werwerwer
+qweqweqweqew
+qwewqeqrtregrfyukui
+ls: ftest: No such file or directory
+a.out
+finalexam
+microshell
+sourcexam
+test.sh
+ls: werwer: No such file or directory
+ls: microshell.c: No such file or directory
+ls: subject.fr.txt: No such file or directory
+microshell
+microshell
+microshell
+microshell
+cat: reserv_microsh.c: No such file or directory
+cat: reserv_microsh.c: No such file or directory
+cat: reserv_microsh.c: No such file or directory
+cat: reserv_microsh.c: No such file or directory
+cat: reserv_microsh.c: No such file or directory
+cat: reserv_microsh.c: No such file or directory
+cat: reserv_microsh.c: No such file or directory
+cat: reserv_microsh.c: No such file or directory
+cat: reserv_microsh.c: No such file or directory
+cat: reserv_microsh.c: No such file or directory
+cat: reserv_microsh.c: No such file or directory
+cat: reserv_microsh.c: No such file or directory
+error: cannot execute blah
+OK
+error: cannot execute blah
+OK
+error: cannot execute blah
+OK
+error: cd: bad arguments
+a.out
+finalexam
+microshell
+sourcexam
+test.sh
+----------------8<------------- END TEST ]
